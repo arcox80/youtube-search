@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Youtube Search</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="node_modules/lightbox2/src/css/lightbox.css" rel="stylesheet">
 </head>
 <body>
   <h1>Search Youtube Here</h1>
@@ -13,10 +16,17 @@
     <button type="submit">Search</button>
   </form>
 
-  <div class="js-search-results">
-
+  <div class="js-search-results search-results">
+  </div>
+  <div class="pages">
+    <button type="button" name="button" id="prev">Previous</button>
+    <button type="button" name="button" id="next">Next</button>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="node_modules/lightbox2/src/js/lightbox.js"></script>
+  <script src="app.js">
+
+  </script>
 </body>
 </html>

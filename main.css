@@ -1,3 +1,46 @@
 body {
-  padding-top: 50px;
+  padding: 50px 30px;
+}
+
+h3 {
+  margin-bottom: 3px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+p {
+  margin-top: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.search-results {
+  margin-bottom: 20px;
+}
+
+.results {
+  position: relative;
+  max-width: 48em;
+}
+
+.description {
+  display: inline-block;
+}
+
+.thumbnail {
+  position: relative;
+  float: left;
+}
+
+.info {
+  margin-left: 125px;
 }
