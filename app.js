@@ -26,7 +26,7 @@ function displayTUBESearchData(data) {
                         '<h3><a href="https://www.youtube.com/watch?v=' + item.id.videoId + '" target="_blank">' + item.snippet.title + '</a></h3>' +
                         '<div class="description">' +
                           '<div class="thumbnail">' +
-                            '<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '"><img src=' + item.snippet.thumbnails.default.url + ' data-lightbox="image' + num + '"></a>' +
+                            '<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '" data-lity><img src="' + item.snippet.thumbnails.default.url + '"></a>' +
                           '</div>' +
                           '<div class="info">' +
                             '<h5>Uploaded by <a href="https://www.youtube.com/channel/' + item.snippet.channelId + '" target="_blank">' + item.snippet.channelTitle + '</a></h5>' +

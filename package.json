@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/arcox80/youtube-search#readme",
   "dependencies": {
-    "lightbox2": "^2.9.0"
+    "lity": "^2.2.2"
   }
 }
