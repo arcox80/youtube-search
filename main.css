@@ -23,6 +23,25 @@ form {
   margin-bottom: 20px;
 }
 
+.logo {
+  height: 43px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+input.js-query {
+  border: 1px solid black;
+  background: #f7f7f7;
+  border-radius: 3px;
+}
+
+.tube {
+  border-style: none;
+  background: #c4302b;
+  color: white;
+  border-radius: 3px;
+}
+
 .search-results {
   margin-bottom: 20px;
 }
