@@ -44,3 +44,7 @@ form {
 .info {
   margin-left: 125px;
 }
+
+.hidden {
+  display: none;
+}

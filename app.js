@@ -15,7 +15,7 @@ function getDataFromApi(searchTerm, pageToken, callback) {
 
 
 function displayTUBESearchData(data) {
-  console.log(data);
+  //console.log(data);
   nextToken = data.nextPageToken;
   prevToken = data.prevPageToken;
   var num = 0;
@@ -36,6 +36,9 @@ function displayTUBESearchData(data) {
                       '</div>' +
                       '<div style="clear:left"></div>';
       num +=1;
+      if ($('.js-pages').hasClass('hidden')) {
+        $('.js-pages').toggleClass('hidden');
+      }
     });
   }
   else {
